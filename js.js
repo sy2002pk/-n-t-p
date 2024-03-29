@@ -1,15 +1,50 @@
-var arr = [{
-    name: 'A',
-    money: 1000
-}, {
-    name: 'C',
-    money: 5000
-}, {
-    name: 'B',
-    money: 3100
-}]
+// Array
+
+// push thêm phần tử vào cuối
+// shift lấy phần tử đầu tiên
+// unshift bỏ phần tử đầu
+// pop  lấy phần tử cuối cùng 
+// slice lấy đi phần tử của 1 mảng (nếu slice(2) là lấy từ vị trí thứ 2 đến hết nếu slice(1,3) là lấy vị trí từ 1 đến 2)
+// splice(chỉ mục(vị trị),số lượng xóa,thêm phần tử....) 
+// sort ( so sánh oject thì t dùng if)
+// reverse đảo ngược
+// reduce tính tổng phần tử 
+// filter trả về phần tử gốc nếu nó true (còn trong oject lọc điều kiện đúng)
+// find trả về phần tử đầu tiên đúng
+// map trả về phần tử mới
+
+// kiểu dữ liệu
+
+// number
+// string
+// boolean
+
+// array
+// oject
+// function
+
+// undefined (không có gì)
+// null 
+// NaN (phép tính sai)
+// 0
+// ''
+// false
+
+// cách gọi function
+// c1 function tên(value,value2,...){
+// }	
 
 
+// var arr = [{
+//     name: 'A',
+//     money: 1000
+// }, {
+//     name: 'C',
+//     money: 5000
+// }, {
+//     name: 'B',
+//     money: 3100
+// }]
 // thêm oject
 // var them={name:'An',money:2800}
 // arr.push(them)
